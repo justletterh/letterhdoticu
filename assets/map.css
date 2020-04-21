@@ -1,0 +1,114 @@
+body {
+  color: #d9d9d9;
+  background-color: #000000;
+}
+
+h1 {
+  color: #d9d9d9;
+  margin-right: 5%;
+}
+h4 {
+  color: #d9d9d9;
+  margin-right: 5%;
+}
+
+.right {
+  z-index: 20;
+  position: fixed;
+  bottom: 0;
+	right: 0;
+	background: #bfbfbf;
+	width: 13%;
+	height: 100%;
+}
+
+.left {
+  z-index: 20;
+  position: fixed;
+	bottom: 0;
+	left: 0;
+	background: #bfbfbf;
+	width: 13%;
+	height: 100%;
+}
+
+footer {
+	text-align: center;
+	margin-right: 3%;
+	font-size: small;
+}
+
+.tooltip {
+	position: relative;
+	display: inline-block;
+}
+
+.tooltip .tooltiptext {
+	visibility: hidden;
+	width: 140px;
+	background-color: #555;
+	color: #ffffff;
+	text-align: center;
+	border-radius: 6px;
+	padding: 5px;
+	position: absolute;
+	z-index: 1;
+	bottom: 150%;
+	left: 50%;
+	margin-left: -75px;
+	opacity: 0;
+	transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+	content: "";
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	margin-left: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+	visibility: visible;
+	opacity: 1;
+}
+
+#myInput {
+	opacity: 0;
+	position: fixed;
+}
+
+#discord {
+	border: none;
+	background-color: #000000;
+}
+
+.foot {
+	margin-right: 3%;
+}
+
+.line {
+	position: relative;
+	right: 1.25%;
+	background-color: #bfbfbf;
+	height: 3px;
+	width: 106.75%;
+}
+
+a:link {
+  color: #999999;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #999999;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #595959;
+	text-decoration: none;
+}
