@@ -1,23 +1,23 @@
 body {
-  color: #ffffff;
+  color: #d9d9d9;
   background-color: #000000;
 }
 
 h1 {
-  color: #ffffff;
+  color: #d9d9d9;
   margin-right: 5%;
 }
 h4 {
-  color: #ffffff;
+  color: #d9d9d9;
   margin-right: 5%;
 }
 
 .right {
   z-index: 20;
   position: fixed;
-	bottom: 0;
+  bottom: 0;
 	right: 0;
-	background: #ffffff;
+	background: #bfbfbf;
 	width: 13%;
 	height: 100%;
 }
@@ -27,7 +27,7 @@ h4 {
   position: fixed;
 	bottom: 0;
 	left: 0;
-	background: #ffffff;
+	background: #bfbfbf;
 	width: 13%;
 	height: 100%;
 }
@@ -93,7 +93,7 @@ footer {
 .line {
 	position: relative;
 	right: 1.25%;
-	background-color: #ffffff;
+	background-color: #bfbfbf;
 	height: 3px;
 	width: 106.75%;
 }
