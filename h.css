@@ -1,14 +1,23 @@
 a:link {
-	color: #000000;
+	color: #ffffff;
 	text-decoration: none;
 }
 
 a:visited {
-	color: #000000;
+	color: #ffffff;
 	text-decoration: none;
 }
 
 a:hover {
-	color: #000000;
+	color: #ffffff;
 	text-decoration: none;
+}
+
+body {
+  color: #ffffff;
+	background-color: #000000;
+}
+
+h1 {
+  color: #ffffff;
 }
