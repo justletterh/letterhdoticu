@@ -4,6 +4,28 @@
     <title>hdev home</title>
     <link rel="icon" href="https://media.discordapp.net/attachments/697891138471985162/701828895976194058/h.png">
     <link rel="stylesheet" type="text/css" href="index.css">
+    <script src="https://cdn.jsdelivr.net/npm/@widgetbot/crate@3" async defer>
+      const button = new Crate({
+        server: '702592687622062091',
+        channel: '702608716804915301',
+        shard: 'https://e.widgetbot.io',
+        location: ['bottom', 'left'],
+        color: 'black',
+        defer: true,
+        notifications: true,
+        indicator: false,
+        css: 'background-color: #000000'
+      })
+      button.notify('click the icon in the corner to see our discord server!')
+      setInterval(() => {
+    button.options.notifications = false
+      }, 2750)
+      setInterval(() => {
+        button.options.color = "#000000".replace(/0/g, () => {
+              return (~~(Math.random() * 16)).toString(16)
+            })
+      }, 945)
+    </script>
   </head>
   <body rightmargin="18%">
   <div class="right"></div>
